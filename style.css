@@ -45,7 +45,7 @@ nav ul li a {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    border-radius: auto;
+    border-radius: 1px;
     background-color: #000000;
 }
 
@@ -177,7 +177,7 @@ footer {
 
 @media screen and (min-width: 880px) {
     #gallery {
-        grid-template-columns: repeat(2 1fr);
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         display: grid;
         grid-column: 1 / 4;
@@ -190,7 +190,7 @@ footer {
 
 @media screen and (min-width: 1300px) {
     #gallery {
-        grid-template-columns: repeat(3 1fr);
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: right;
         display: grid;
         grid-column: 1 / 4;
